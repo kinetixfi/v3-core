@@ -3,14 +3,14 @@ pragma solidity =0.7.6;
 
 import './interfaces/IUniswapV3Factory.sol';
 
-import './UniswapV3PoolDeployer.sol';
+import './KinetixV3PoolDeployer.sol';
 import './NoDelegateCall.sol';
 
-import './UniswapV3Pool.sol';
+import './KinetixV3Pool.sol';
 
-/// @title Canonical Uniswap V3 factory
-/// @notice Deploys Uniswap V3 pools and manages ownership and control over pool protocol fees
-contract UniswapV3Factory is IUniswapV3Factory, UniswapV3PoolDeployer, NoDelegateCall {
+/// @title Canonical Kientix V3 factory
+/// @notice Deploys Kientix V3 pools and manages ownership and control over pool protocol fees
+contract KinetixV3Factory is IUniswapV3Factory, KinetixV3PoolDeployer, NoDelegateCall {
     /// @inheritdoc IUniswapV3Factory
     address public override owner;
 

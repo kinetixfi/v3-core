@@ -7,7 +7,7 @@ import '../interfaces/callback/IUniswapV3SwapCallback.sol';
 
 import '../interfaces/IUniswapV3Pool.sol';
 
-contract TestUniswapV3ReentrantCallee is IUniswapV3SwapCallback {
+contract TestKinetixV3ReentrantCallee is IUniswapV3SwapCallback {
     string private constant expectedReason = 'LOK';
 
     function swapToReenter(address pool) external {

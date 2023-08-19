@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity =0.7.6;
 
-import '../UniswapV3Pool.sol';
+import '../KinetixV3Pool.sol';
 
 // used for testing time dependent behavior
-contract MockTimeUniswapV3Pool is UniswapV3Pool {
+contract MockTimeKinetixV3Pool is KinetixV3Pool {
     // Monday, October 5, 2020 9:00:00 AM GMT-05:00
     uint256 public time = 1601906400;
 

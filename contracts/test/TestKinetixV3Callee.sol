@@ -12,7 +12,7 @@ import '../interfaces/callback/IUniswapV3FlashCallback.sol';
 
 import '../interfaces/IUniswapV3Pool.sol';
 
-contract TestUniswapV3Callee is IUniswapV3MintCallback, IUniswapV3SwapCallback, IUniswapV3FlashCallback {
+contract TestKinetixV3Callee is IUniswapV3MintCallback, IUniswapV3SwapCallback, IUniswapV3FlashCallback {
     using SafeCast for uint256;
 
     function swapExact0For1(

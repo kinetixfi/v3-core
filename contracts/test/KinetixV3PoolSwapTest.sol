@@ -6,7 +6,7 @@ import '../interfaces/IERC20Minimal.sol';
 import '../interfaces/callback/IUniswapV3SwapCallback.sol';
 import '../interfaces/IUniswapV3Pool.sol';
 
-contract UniswapV3PoolSwapTest is IUniswapV3SwapCallback {
+contract KinetixV3PoolSwapTest is IUniswapV3SwapCallback {
     int256 private _amount0Delta;
     int256 private _amount1Delta;
 

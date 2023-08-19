@@ -8,7 +8,7 @@ import '../interfaces/IERC20Minimal.sol';
 import '../interfaces/callback/IUniswapV3SwapCallback.sol';
 import '../interfaces/IUniswapV3Pool.sol';
 
-contract TestUniswapV3Router is IUniswapV3SwapCallback {
+contract TestKinetixV3Router is IUniswapV3SwapCallback {
     using SafeCast for uint256;
 
     // flash swaps for an exact amount of token0 in the output pool

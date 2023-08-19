@@ -1,26 +1,26 @@
 {
-  "name": "@uniswap/v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
+  "name": "@kinetix/v3-core",
+  "description": "Core smart contracts of Kinetix V3",
+  "version": "1.0.0",
   "license": "BUSL-1.1",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "homepage": "https://kinetix.finance",
   "keywords": [
-    "uniswap",
+    "kinetix",
     "core",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-core"
+    "url": "https://github.com/kinetixfi/v3-core"
   },
   "files": [
     "contracts/interfaces",
     "contracts/libraries",
-    "artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json",
-    "artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json",
+    "artifacts/contracts/KinetixV3Factory.sol/KinetixV3Factory.json",
+    "artifacts/contracts/KinetixV3Pool.sol/KinetixV3Pool.json",
     "artifacts/contracts/interfaces/**/*.json",
     "!artifacts/contracts/interfaces/**/*.dbg.json"
   ],

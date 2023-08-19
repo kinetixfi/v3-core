@@ -6,7 +6,7 @@ import '../interfaces/IERC20Minimal.sol';
 import '../interfaces/callback/IUniswapV3SwapCallback.sol';
 import '../interfaces/IUniswapV3Pool.sol';
 
-contract TestUniswapV3SwapPay is IUniswapV3SwapCallback {
+contract TestKinetixV3SwapPay is IUniswapV3SwapCallback {
     function swap(
         address pool,
         address recipient,

@@ -44,6 +44,9 @@ export default {
     bnb: {
       url: `https://bsc-dataseed.binance.org/`,
     },
+    kava: {
+      url: 'https://evm.kava.io',
+    },
   },
   etherscan: {
     // Your API key for Etherscan
